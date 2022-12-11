@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-content {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "La Belle Aurore", cursive;
+  font-size: 1.25rem;
+  background-color: beige;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-height: 65vh;
+  background-color: white;
+  box-shadow: 3px 3px 6px rgb(235, 235, 183);
+}
+.img-dia {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(155, 144, 144);
+}
